@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#080b0a">
+    <meta name="discription" content="My personal developer portfolio, projects, skills, and contact information.">
+    <title>XEV//FERNAN | Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
+
+    <header class="navbar">
+        <a href="#home" class="logo">XEV<span>//</span>FERNAN</a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">
+            ☰
+        </button>
+
+        <nav class="nav=links" id="navLinks">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+
+        <a href="#contact" class="nav-cta">Let's Talk ↗</a>
+    </header>
+
+    <main>
+
+        <!-- HOME -->
+         <section class="hero section" id="home">
+            <div class="hero-content reveal">
+                <div class="availabilty">
+                    <span class="status-dot"></span>
+                    AVAILABLE FOR OPPPORTUNITIES
+                </div>
+
+                <p class="eyebrow">HELLO, WORLD! I'M</p>
+                <h1>Xevy <span class="accent">Fernan.</span></h1>
+
+                <h2 class="hero-role">
+                    I'm a <span id="typedRole">Network & Software Engineer</span><span class="cursor">|</span>
+                </h2>
+
+                <p class="hero-discription">
+                    I build modern, responsive, and user-friendly digital experiences.
+                    I love turning creative ideas into functional websites and applications.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="button button-primary">
+                        Explore My Work <span>↗</span>
+                    </a>
+                </div>
+
+                <div class="hero-socials">
+                    <span>FIND ME ON</span>
+                    <a href="https://github.com/" target="_blank" rel+="noopener noreferrer">GitHub ↗</a>
+                    <a href="https//www,linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                </div>
+            </div>
+
+            <div class="hero-visual reveal">
+                <div class="visual-topline">
+                    <span class="live-indicator">● ONLINE</span>
+                </div>
+
+                <div class="profile-frame">
+                    <div class="frame-corner corner-tl"></div>
+                    <div class="frame-corner corner-tr"></div>
+                    <div class="frame-corner corner-bl"></div>
+                    <div class="frame-corner corner-br"></div>
+
+                <img
+                id="profileImage"
+                src="https://placehold.co/600x700/101713/39ff88?text=YOUR+PHOTO"
+                alt="My profile picture">
+
+                <div class="profile-overlay">
+                    <span class="profile-tag">DEVELOPER PROFILE</span>
+                    <span class="profile-number">DS_001</span>
+                </div>
+                </div>
+
+                <button type="button" class="edit-photo-button" id="editPhotoButton">
+                    <span>✎</span> Edit Profile Photo
+                </button>
+
+                <input
+                type="file"
+                id="photoInput"
+                accept="Image/png,image/jpeg,image/webp"
+                hidden
+                >
+
+                <div class="visual-footer">
+                    <div>
+                        <span class="footer-label">SPECIALIZATION</span>
+                        <strong>Network Engineering</strong>
+                    </div>
+                    <div class="footer-symbol">✳</div>
+                </div>
+            </div>
+         </section>
+
+         <div class="ticker" aria-label="My interests">
+            <div class="ticker-track">
+                <span>WEB DEVELOPMENT ✳</span>
+                <span>UI / UX DESIGN ✳</span>
+                <span>INFORMATION TECHNOLOGY ✳</span>
+                <span> SOFTWARE ENGINEERING ✳</span>
+                <span> NETWORK ENGINEERING ✳</span>
+                <span>WEB DEVELOPMENT ✳</span>
+                <span>UI / UX DESIGN ✳</span>
+                <span>INFORMATION TECHNOLOGY ✳</span>
+                <span> SOFTWARE ENGINEERING ✳</span>
+                <span> NETWORK ENGINEERING ✳</span>
+            </div>
+         </div>
+
+         <!-- ABOUT -->
+          <section class="section content-section" id="about">
+            <div class="section-heading reveal">
+                <p class="eyebrow">01 / GET TO KNOW ME</p>
+                <h2>A little bit <span class="accent">about me.</span></h2>
+                <p>Curious mind. Creative thinker. Lifelong learner.</p>
+            </div>
+
+            <div class="about-grid">
+                <article class="glass-card about-card reveal">
+                    <div class="card-icon">⌘</div>
+                <h3>Who I Am</h3>
+                <p>
+                    I'm an Information Technology student who enjoying exploring programming, wb development, and Engineering. I'm always learning something new improving my skills.
+                </p>
+                </article>
+
+                <article class="glass-card about-card reveal">
+                    <div class="card-icon">✳</div>
+                    <h3>What I Do</h3>
+                    <p>I create websites and engineering , expirment with front-end technologies, and work on projects that solve real-world problems
+                    </p>
+                </article>
+
+                <article class="glass-card about-card reveal">
+                    <div class="card-icon">↗</div>
+                    <h3>My Goal</h3>
+                    <p>
+                        To become a skilled Network & Software Engineer, build useful digital products, collaborate with others, and keep growing through hands-on experience.
+                    </p>
+                </article>
+            </div>
+          </section>
+
+          <!-- SKILLS -->
+           <section class="section content-section" id="skills">
+            <div class="section-heading reveal">
+                <p class="eyebrow">02 / MY TOOLKIT</p>
+                <h2>Skills &<span class="accent">technologies.</span></h2>
+                <p>Tools I use while learning and building projects.</p>
+            </div>
+
+            <div class="skills-grid reveal">
+                <div class="skill-item">
+                    <span class="skill-icon">🌐</span>
+                    <span class="skill-name">HTML5</span>
+                    <span class="skill-type">STRUCTURE</span>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-icon">🎨</span>
+                    <span class="skill-name">CSS3</span>
+                    <span class="skill-type">STYLING</span>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-icon">⚡</span>
+                    <span class="skill-name">JavaScript</span>
+                    <span class="skill-type">INTERACTIVITY</span>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-icon">🐍</span>
+                    <span class="skill-name">Python</span>
+                    <span class="skill-type">PROGRAMMING</span>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-icon">🗄️</span>
+                    <span class="skill-name">SQL / MySQL</span>
+                    <span class="skill-type">DATABASE</span>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-icon">🔧</span>
+                    <span class="skill-name">Git & GitHub</span>
+                    <span class="skill-type">VERSION CONTROL</span>
+                </div>
+            </div>
+           </section>
+
+           <!--  PROJECTS -->
+             <section class="section content-section" id="projects">
+      <div class="section-heading reveal">
+        <p class="eyebrow">03 / SELECTED WORK</p>
+        <h2>Things I've <span class="accent">built.</span></h2>
+        <p>A few project concepts from my development journey.</p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card reveal">
+          <div class="project-visual project-green">
+            <span class="project-index">PROJECT_001</span>
+            <div class="mock-dashboard">
+              <div class="mock-sidebar"></div>
+              <div class="mock-content">
+                <div class="mock-bar"></div>
+                <div class="mock-stats">
+                  <span></span><span></span><span></span>
+                </div>
+                <div class="mock-chart"></div>
+              </div>
+            </div>
+            <span class="project-visual-label">CHILDTRACK / SYSTEM</span>
+          </div>
+          <div class="project-info">
+            <div class="project-meta">
+              <span>WEB APP · IOT</span>
+              <span>01</span>
+            </div>
+            <h3>ChildTrack</h3>
+            <p>
+              A smart attendance and child monitoring system concept
+              designed to help improve school pickup verification and monitoring.
+            </p>
+            <div class="tag-list">
+              <span>HTML/CSS</span><span>JavaScript</span><span>IoT</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-visual project-purple">
+            <span class="project-index">PROJECT_002</span>
+            <div class="sensor-card">
+              <span class="sensor-title">LIVE SENSOR DATA</span>
+              <strong>28.4<span>°C</span></strong>
+              <span class="sensor-status">● SYSTEM ACTIVE</span>
+              <svg viewBox="0 0 300 80" role="img" aria-label="Decorative sensor graph">
+                <polyline points="0,60 25,48 50,57 75,25 100,40 125,18 150,36 175,12 200,30 225,18 250,40 275,12 300,22"
+                  fill="none" stroke="currentColor" stroke-width="3" />
+              </svg>
+            </div>
+            <span class="project-visual-label">IOT / DASHBOARD</span>
+          </div>
+          <div class="project-info">
+            <div class="project-meta">
+              <span>IOT · DASHBOARD</span>
+              <span>02</span>
+            </div>
+            <h3>IoT Sensor Dashboard</h3>
+            <p>
+              A dashboard concept for presenting sensor readings and
+              monitoring environmental data in a simple interface.
+            </p>
+            <div class="tag-list">
+              <span>JavaScript</span><span>ESP32</span><span>Database</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-visual project-blue">
+            <span class="project-index">PROJECT_003</span>
+            <div class="task-preview">
+              <div class="task-heading">My Workspace <span>＋</span></div>
+              <div class="task-row"><span class="task-check">✓</span> Plan the project</div>
+              <div class="task-row"><span class="task-check">✓</span> Build the interface</div>
+              <div class="task-row"><span class="task-empty"></span> Test the application</div>
+            </div>
+            <span class="project-visual-label">PRODUCTIVITY / APP</span>
+          </div>
+          <div class="project-info">
+            <div class="project-meta">
+              <span>WEB APP · CRUD</span>
+              <span>03</span>
+            </div>
+            <h3>Task Manager</h3>
+            <p>
+              A task management concept with task lists, completion status,
+              and an interface for organizing everyday activities.
+            </p>
+            <div class="tag-list">
+              <span>HTML/CSS</span><span>JavaScript</span><span>CRUD</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section content-section" id="contact">
+      <div class="contact-panel reveal">
+        <p class="eyebrow">04 / LET'S CONNECT</p>
+        <h2>Have an idea?<br><span class="accent">Let's build it.</span></h2>
+        <p>
+          I'm always open to learning, collaborating, and talking about
+          technology and creative projects.
+        </p>
+
+        <!-- Palitan ang email address sa ibaba ng sarili mong email. -->
+        <a class="button button-primary" href="mailto:your.email@example.com">
+          Send Me an Email ↗
+        </a>
+
+        <p class="contact-note">
+          Replace your.email@example.com with your actual email address.
+        </p>
+      </div>
+    </section>
+</main>
+
+ <footer class="footer">
+    <a href="#home" class="logo">DEV<span>//</span>SPACE</a>
+    <p>Designed & built with <span class="accent">♥</span> and code.</p>
+    <a href="#home" class="back-top">BACK TO TOP ↑</a>
+  </footer>
+
+  <!-- PHOTO EDITOR MODAL -->
+  <div class="modal-backdrop" id="photoModal" hidden>
+    <section class="photo-modal" role="dialog"
+      aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="closeModal" aria-label="Close">×</button>
+
+      <p class="eyebrow">PROFILE SETTINGS</p>
+      <h2 id="modalTitle">Update your <span class="accent">photo.</span></h2>
+      <p class="modal-description">
+        Choose a photo, preview it, then save it to this browser.
+      </p>
+
+      <div class="photo-preview-wrap">
+        <img id="photoPreview" src="" alt="Preview of selected profile photo">
+      </div>
+
+      <label for="photoInput" class="button button-secondary upload-label">
+        Choose Image
+      </label>
+
+      <p class="file-hint">JPG, PNG, or WebP · Maximum 8 MB</p>
+      <p class="photo-message" id="photoMessage" role="status"></p>
+
+      <div class="modal-actions">
+        <button type="button" class="button button-secondary" id="cancelPhoto">
+          Cancel
+        </button>
+        <button type="button" class="button button-primary" id="savePhoto" disabled>
+          Save Photo
+        </button>
+      </div>
+
+      <button type="button" class="remove-photo" id="resetPhoto">
+        Reset to default photo
+      </button>
+    </section>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
